@@ -20,7 +20,7 @@ const Testimonial = () => {
              alt="star"
              width={116}
              height={18.89}/>
-             <h1 className="w-[352px] h-[108px] font-[Roboto] text-[18px] text-[#000000]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</h1>
+             <h1 className="w-[352px] h-[108px] font-[Roboto] text-[18px] text-[#000000]">{`"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."`}</h1>
              <div className="flex w-[254px] h-[56px] gap-[20px]">
              <Image
              src={"/images/team3.svg"}
@@ -39,7 +39,7 @@ const Testimonial = () => {
              alt="star"
              width={116}
              height={18.89}/>
-             <h1 className="w-[352px] h-[108px] font-[Roboto] text-[18px] text-[#000000]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</h1>
+             <h1 className="w-[352px] h-[108px] font-[Roboto] text-[18px] text-[#000000]">{`"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."`}</h1>
              <div className="flex w-[254px] h-[56px] gap-[20px]">
              <Image
              src={"/images/team5.svg"}
@@ -59,7 +59,7 @@ const Testimonial = () => {
              alt="star"
              width={116}
              height={18.89}/>
-             <h1 className="w-[352px] h-[108px] font-[Roboto] text-[18px] text-[#000000]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</h1>
+             <h1 className="w-[352px] h-[108px] font-[Roboto] text-[18px] text-[#000000]">{`"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."`}</h1>
              <div className="flex w-[254px] h-[56px] gap-[20px]">
              <Image
              src={"/images/team6.svg"}
