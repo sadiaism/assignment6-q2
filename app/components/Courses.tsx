@@ -11,7 +11,7 @@ const Courses = () => {
     <div className="flex flex-col items-center top-[3326px] pt-[112px] pb-[112px] px-[64px] pl-[64px] gap-[60px] mobile:pt-[48px] mobile:px-[24px] mobile:pb-[48px] mobile:pl-[24px] bg-[#FFFFFF]">
       <div className="text-center  ">
         <h1 className="text-center font-[Roboto] text-[56px] text-[#000000] font-bold mobile:text-[32px]">Courses</h1>
-        <p className="font-[Roboto] font-medium text-[18px] text-[#000000]">Your Ultimate Guide to learning</p>
+        <p className="font-medium text-[18px] text-[#000000]">Your Ultimate Guide to learning</p>
       </div>
 
       <div className="flex flex-col items-center justify-center gap-[64px]">
