@@ -13,11 +13,11 @@ const Header = () => {
   }
   return (
   <div>
-    <div className="top-[100px] w-[1280px] h-[54px] bg-[#F7F7F7] border-b-[1px] border-b-[#000000] pl-[62px] px-[64px] left-[100px] mobile:hidden">
-        <div className="flex w-[1154px] h-[54px] pb-[12px] pt-[12px] gap-[32px]">
-            <div className=" w-[386px] h-[30px] gap-[16px] font-[Robotto] text-[#000000] text-[14px]">Phone Number:956 742 455 678 | Email:info@ddsgnr.com
+    <div className="top-[100px] h-[54px] bg-[#F7F7F7] border-b-[1px] border-b-[#000000] pl-[62px] px-[64px] left-[100px] mobile:hidden">
+        <div className="flex justify-between h-[54px] pb-[12px] pt-[12px] gap-[32px]">
+            <div className="h-[30px] gap-[16px] font-[Robotto] text-[#000000] text-[14px]">Phone Number:956 742 455 678 | Email:info@ddsgnr.com
          </div>
-            <div className="w-[736px] h-[24px] gap-[16px] flex justify-end">
+            <div className="h-[24px] gap-[16px] flex justify-end">
                 <Image
                 src={"/images/icon1.svg"}
                 alt="icon"
@@ -48,21 +48,26 @@ const Header = () => {
       
     </div>
     {/* Ddsgnr strt */}
-    <div className="w-[1280px] top-[170px] left-[100px] border-b-[1px] px-[64px] pl-[64px] bg-[#F7F7F7] border-b-[#676767] pb-8">
-        <div className="flex justify-between w-[1152px] h-[44px] pt-[9px]">
-            <div className="flex w-[130.6px] h-[41px]  pt-[9px] gap-[10px]">
+    <div className="top-[170px] left-[100px] border-b-[1px] px-[64px] pl-[64px] bg-[#F7F7F7] border-b-[#676767] pb-8">
+        <div className="flex justify-between h-[44px] pt-[9px]">
+            <div className="flex h-[41px]  pt-[9px] gap-[10px]">
                 <Image
                 src={"/images/Frame 1.svg"}
                 alt="frame"
                 width={32.58}
                 height={30.38}
                 />
-                <h1 className=" w-[90px] h-[30px] font-[inter] text-[25.07px]">Ddsgnr</h1>
+                <h1 className="w-[90px] h-[30px] font-[inter] text-[25.07px]">Ddsgnr</h1>
+
+
+                <div className="lg:hidden mobile:ml-32"
+                  onClick={toggleMenu}>
+                    {isMenuOpen ?<AiOutlineClose size={30}/>:
+                    <AiOutlineMenu size={30}/>
+                  }
+                </div>
             
-            <div className='lg:hidden mobile:ml-32' onClick={toggleMenu}>
-                  {isMenuOpen ?<AiOutlineClose size={30}/>:
-                  <AiOutlineMenu size={30}/>}
-                  </div></div>
+            </div>
 
            
             

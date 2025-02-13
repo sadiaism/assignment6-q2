@@ -30,9 +30,9 @@ const Home = () => {
 
 
    {/* 2nd   */}
-<div className="flex pt-[80px] px-[64px] pb-[80px] pl-[64px] gap-[64px] bg-[#F7F7F7] mobile:px-24 mobile:pb-48 mobile:pl-24 mobile:gap-24 mobile:flex-col">
+<div className="flex pt-[80px] px-[64px] pb-[80px]  bg-[#F7F7F7] mobile:px-24 mobile:pb-48 mobile:pl-24 mobile:gap-24 mobile:flex-col">
       <h1 className="font-[Roboto] text-[24px] text-[#000000]">Trusted by 2000+companies worldwide.</h1>
-      <div className="flex pt-[8.74px] pb-[8.74px] gap-[19.12px] mobile:flex-col">
+      <div className="flex pt-[8.74px] pb-[8.74px] gap-[19px] mobile:flex-col">
         <Image 
         src={"/images/Airbnb Logo.svg"}
         alt="image"
@@ -73,17 +73,17 @@ const Home = () => {
     </div>
 
    {/* 3rd   */}
-    <div className=" flex flex-col items-center justify-center top-[1266px] left-[100px] pt-[112px] px-[64px] pb-[112px] pl-[64px] gap-[80px] bg-[#FFFFFF]">
+    <div className=" flex flex-col items-center justify-center top-[1266px] pt-[112px] px-[64px] pb-[112px]  gap-[80px] bg-[#FFFFFF]">
       <div className="gap-[357px]">
         <h2 className="font-[Roboto] font-bold text-[48px] text-[#000000] mobile:text-[32px]">Explore Courses By Category</h2>
         <p className="font-[Roboto] text-[18px] text-[#000000]">Discover a wide range of courses covering a variety of subjects,taught by expert instructors.</p>
       </div>
 
-      <div className="grid grid-cols-3 gap-[96px] w-[1280px] mobile:w-[380px] mobile:grid-cols-1 bg-[#FFFFFF] mobile:gap-[24px] mobile:mr-9">
+      <div className="grid grid-cols-3 mobile:grid-cols-1 bg-[#FFFFFF] gap-[24px]">
         
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
 
-          <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+          <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
             <Image
             src={"/images/tool1.svg"}
             alt="pen-tool"
@@ -91,14 +91,14 @@ const Home = () => {
             height={32}
             />
           </div>
-          <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] mobile:gap-[24px] ">
-            <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Design & Development</h1>
-            <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+          <div className=" gap-[16px] mt-[12px] mobile:gap-[24px] ">
+            <h1 className=" font-[Roboto] text-[20px] text-[#000000]">Design & Development</h1>
+            <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
           </div></div>
         
 
-          <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+          <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool2.svg"}
             alt="pen-tool"
@@ -106,14 +106,14 @@ const Home = () => {
             height={32}
             />  
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] ">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Marketing</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px] ">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Marketing</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div></div>
         
 
-        <div className=" flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool3.svg"}
             alt="pen-tool"
@@ -121,15 +121,15 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] ">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Development</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px] ">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Development</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div>
 
         
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool4.svg"}
             alt="pen-tool"
@@ -137,14 +137,14 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] ">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Communication</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px] ">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Communication</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div>
 
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool5.svg"}
             alt="pen-tool"
@@ -152,14 +152,14 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] ">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Digital Marketing</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px] ">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Digital Marketing</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div>
 
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool6.svg"}
             alt="pen-tool"
@@ -167,14 +167,14 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] ">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Self Development</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px] ">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Self Development</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div>
 
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool7.svg"}
             alt="pen-tool"
@@ -182,14 +182,14 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px]">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Business</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px]">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Business</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div>
 
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool8.svg"}
             alt="pen-tool"
@@ -197,14 +197,14 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px] ">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Finance</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px] ">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Finance</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div>
 
-        <div className="flex w-[410.67px] h-[132px] r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
-        <div className="w-[100px] h-[100px] r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
+        <div className="flex r-[5px] p-[16px] gap-[32px] bg-[#F7F7F7]">
+        <div className="r-[5px] p-[34px] gap-[10px] bg-[#FFFFFF]">
         <Image
             src={"/images/tool9.svg"}
             alt="pen-tool"
@@ -212,9 +212,9 @@ const Home = () => {
             height={32}
             />
         </div>
-        <div className="w-[246.67px] h-[57px] gap-[16px] mt-[12px]">
-        <h1 className="w-[246.67px] h-[30px] font-[Roboto] text-[20px] text-[#000000]">Consulting</h1>
-        <p className="w-[246.67px] h-[27px] font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
+        <div className="gap-[16px] mt-[12px]">
+        <h1 className="font-[Roboto] text-[20px] text-[#000000]">Consulting</h1>
+        <p className="font-[Roboto] text-[18px] text-[#000000]">50+Courses Available</p>
         </div>
         </div></div>
 
